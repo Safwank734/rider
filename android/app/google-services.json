@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "788776194922",
+    "firebase_url": "https://riderapp-cea30-default-rtdb.firebaseio.com",
+    "project_id": "riderapp-cea30",
+    "storage_bucket": "riderapp-cea30.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:788776194922:android:46aa37f0779d7e5cf80b13",
+        "android_client_info": {
+          "package_name": "com.fluttmac.riderapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "788776194922-itd724p7c7l3649bo47jqf7chq2hpino.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCO7v1ufgZlZex2333GOIlKsZtUZaFGT_Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "788776194922-itd724p7c7l3649bo47jqf7chq2hpino.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
