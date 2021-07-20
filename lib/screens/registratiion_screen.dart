@@ -113,7 +113,7 @@ class RegistrationScreen extends StatelessWidget {
             message: "Registering, Please wait...",
           );
         });
-    final User? user = (await _auth
+    final User user = (await _auth
             .createUserWithEmailAndPassword(
                 email: _emailController.text,
                 password: _passwordController.text)

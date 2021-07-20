@@ -89,7 +89,7 @@ class LoginScreen extends StatelessWidget {
             message: "Authenticating, Please wait...",
           );
         });
-    final User? user = (await _auth
+    final User user = (await _auth
             .signInWithEmailAndPassword(
                 email: _emailController.text,
                 password: _passwordController.text)

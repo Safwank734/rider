@@ -2,10 +2,15 @@ import 'package:flutter/material.dart';
 import 'package:rider_app/models/address.dart';
 
 class AppData extends ChangeNotifier {
-    late Address pickUpLocation;
+     Address pickUpLocation,dropOffLocation;
 
   void updatePickUpLocationAddress(Address pickUpAddress) {
     pickUpLocation = pickUpAddress;
     notifyListeners();
   }
+
+     void updateDropOffLocationAddress(Address dropOfAddress) {
+       dropOffLocation = dropOfAddress;
+       notifyListeners();
+     }
 }
